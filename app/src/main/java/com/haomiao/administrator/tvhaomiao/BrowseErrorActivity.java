@@ -43,6 +43,7 @@ public class BrowseErrorActivity extends Activity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
         testError();
+
     }
 
     private void testError() {
@@ -61,6 +62,19 @@ public class BrowseErrorActivity extends Activity {
             }
         }, TIMER_DELAY);
     }
+
+
+
+
+
+
+
+
+
+
+
+
+
 
     static public class SpinnerFragment extends Fragment {
         @Override
